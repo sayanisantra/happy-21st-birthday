@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  /* background-color: bisque; */
+}
+
+.firstsec {
+  height: 750px;
+  padding: 0px 0;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.99));
+
+}
+
+.firstsec::before {
+
+  content: "";
+  position: absolute;
+  background: url("../img/main.jpg") no-repeat center center/cover;
+  height: 750px;
+  /* border-radius: 20px;
+  top: 30px;
+  right: 30px; */
+  width: 100%;
+  z-index: -1;
+  /* margin-top: 10px; */
+}
+
+#wish {
+  padding-top: 500px;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  padding-left: 10px;
+  text-align: left;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+#wish p{
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+.finalwish{
+  font-size: 1.5rem;
+
+}
+
+#wishinfo {
+  padding: 10px;
+  margin: 0;
+  border: none;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+
+.secondsec {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom left, rgb(255, 255, 255), rgb(255, 255, 255));
+
+  line-height: 1.6;
+  text-align: center;
+  color: #000;
+}
+
+.sndpara{
+  padding: 0px 60px ;
+  font-family: 'Hind Siliguri', sans-serif;
+  /* background-color: aqua; */
+  margin: 50px 20px;
+  padding: 10px;
+  border-radius: 16px;
+  border-right: 1px solid rgb(123, 199, 230);
+  border-left: 1px solid rgb(123, 199, 230);
+}
+
+.horailine{
+  height: 8px;
+  width: 100px;
+  background-color: rgb(62, 166, 226);
+  /* margin: 50px; */
+}
+
+p{
+
+}
+
+img{
+  width: 100%;
+  margin: 50px;
+
+}
+
+a{
+  padding: 20px;
+  margin: 15px 0 30px;
+  border: none;
+  background-color: black;
+  color: wheat;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#footer {
+  background-color: #000;
+  text-align: center;
+  padding: 7% 15%;
+  color:#ffffff;
+}
